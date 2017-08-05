@@ -305,7 +305,7 @@ shell的输出类似::
                title = sel.xpath('a/text()').extract()
                link = sel.xpath('a/@href').extract()
                desc = sel.xpath('text()').extract()
-               print title, link, desc
+               print title, link, de
 
 现在尝试再次爬取dmoz.org，您将看到爬取到的网站信息被成功输出::
 
